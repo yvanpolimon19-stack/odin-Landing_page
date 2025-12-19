@@ -3,8 +3,9 @@ body{
     display:flex;
     flex-direction:column;
     height:100vh;
-    align-items:center;
     flex:1 1 auto;
+    align-items:center;
+    font-family:"Roboto",sans-serif;
 }
 img{
     height:50px;
@@ -51,7 +52,10 @@ img{
     width:125px;
 }
 /*Second section */
-
+h2{
+    font-size:36px;
+    font-weight:900;
+}
 .second{
     display:flex;
     flex-direction:column;
@@ -74,7 +78,24 @@ img{
             display:flex;
             width:100px;
             height:100px;
-            margin:auto;
         }
     }
+}
+/* Third Section */
+
+.third{
+    display:flex;
+    flex-direction:column;
+
+}
+.quote{
+    align-self:flex-start;
+    width:775px;
+    font-size:36px;
+    font-weight:300px;
+}
+.quoter{
+    align-self:flex-end;
+    font-size:24px;
+    font-weight:bolder;
 }
