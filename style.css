@@ -2,9 +2,9 @@
 body{
     display:flex;
     flex-direction:column;
-    height:100vh;
-    flex:1 1 auto;
+    max-height:100vh;
     align-items:center;
+
 }
 img{
     height:50px;
@@ -13,10 +13,13 @@ img{
 .first{
     display:flex;
     flex-direction:column;
+    gap:32px;
+    background-color:#1f2937;
+    width:100vw;
 }
 .nav-bar{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 .link-list{
     display:flex;
@@ -25,6 +28,8 @@ img{
 .first-belly{
     display:flex;
     align-items:center;
+    margin:auto;
+    color:white;
 }
 .text{
     display:flex;
@@ -32,6 +37,7 @@ img{
     flex-wrap:wrap;
     max-width:550px;
     margin-right:auto;
+    padding-right:150px;
 }
 .sign_first{
     width:fit-content;
@@ -54,18 +60,19 @@ img{
 h2{
     font-size:36px;
     font-weight:900;
+    color:#1f2937;
 }
 .second{
     display:flex;
     flex-direction:column;
     align-items:center;
-    gap:32px;
 }
 .image-list{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
     gap:32px;
+    padding:50px;
     
     li{
         width:150px;
@@ -85,18 +92,20 @@ h2{
 .third{
     display:flex;
     flex-direction:column;
-
+    width:100vw;
+    background-color:#e5e7eb;
+    padding:100px;
 }
 .quote{
-    align-self:flex-start;
+    align-self:center;
     width:775px;
     font-size:36px;
     font-weight:300px;
 }
 .quoter{
-    align-self:flex-end;
     font-size:24px;
     font-weight:bolder;
+    margin-left:850px;
 }
 /* fourth section */
 
@@ -104,6 +113,7 @@ h2{
     display:flex;
     align-items:center;
     justify-content:space-between;
+    padding:100px;
 
 }
 .box{
@@ -120,4 +130,12 @@ h2{
 }
 .bold{
     font-weight:bolder;
+}
+
+/* footer */
+.footer{
+    background-color:#1f2937;
+    width:100vw;
+    text-align:center;
+    color:white;
 }
