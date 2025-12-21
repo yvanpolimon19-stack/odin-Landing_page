@@ -119,11 +119,14 @@ h2{
 .box{
     display:flex;
     background-color:aquamarine;
-    padding:35px;
     border-radius:5px;
     margin:25px;
     justify-content:space-between;
     width:750px;
+    padding-top:35px;
+    padding-bottom:35px;
+    padding-left:65px;
+    padding-right:65px;
 }
 .second-sign{
     margin:auto;
